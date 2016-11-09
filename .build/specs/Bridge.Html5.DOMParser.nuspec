@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata minClientVersion="2.5">
+    <id>Bridge.Html5.DOMParser</id>
+    <version>0.0.0</version>
+    <title>Bridge.NET Html5 DOMParser</title>
+    <authors>Sirius Software Ltd.</authors>
+    <iconUrl>http://speed.bridge.net/identity/bridgedotnet-100x100.png</iconUrl>
+    <owners />
+    <licenseUrl>https://github.com/bridgedotnet/Bridge/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://bridge.net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bridge.NET support for the DOMParser experimental API</description>
+    <summary>Bridge.NET support for the DOMParser experimental API</summary>
+    <copyright>Copyright (c) 2016, Sirius Software Ltd. All rights reserved.</copyright>
+    <tags>webgl bridge.net bridge js javascript C# csharp mobile ios asp.net aspnet mvc aspnetmvc web transpiler compiler object.net</tags>
+    <dependencies>
+      <dependency id="Bridge.Core" version="15.0.3" />
+    </dependencies>
+    <frameworkAssemblies>
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <!--NET40-->
+    <file src="..\..\Html5.DOMParser\bin\Release\Bridge.Html5.DOMParser.dll" target="lib\net40\Bridge.Html5.DOMParser.dll" />
+    <file src="..\..\Html5.DOMParser\bin\Release\Bridge.Html5.DOMParser.xml" target="lib\net40\Bridge.Html5.DOMParser.xml" />
+    <file src="..\..\Html5.DOMParser\bin\Release\Bridge.Html5.DOMParser.pdb" target="lib\net40\pdb\Bridge.Html5.DOMParser.pdb" />
+  </files>
+</package>
